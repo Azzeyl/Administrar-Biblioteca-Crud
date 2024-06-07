@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    justify-content: center;/*centrar contenido*/
+    align-items: center;
+}
+/*titulo global*/
+.center, .center-align {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*color fondos*/ /*se iso el fondo con l apagina Hero Patterns*/
+body{
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23d2cf6d' fill-opacity='0.33' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+nav {
+    background-color: black;
+    width: 100%;
+    height: 78px;
+    line-height: 79px;
+    margin-top: 5px; /* Agrega un margen superior al footer */
+}
+
+header { /*espacio cartas*/ 
+    margin-bottom: 128px; /* Agrega un margen inferior al header */
+}
+.ingreso{
+    margin-bottom: 12px;
+}
+
+
+footer {
+    position: fixed; /* Fija la posición del footer al final */
+    margin-top: 88px; /* Agrega un margen superior al footer */
+    bottom: 0; /* Lo coloca en la parte inferior de la ventana del navegador */
+    width: 100%; /* Ancho completo */
+    background-color:black; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Relleno */
+    text-align: center; /* Alineación del texto */
+}
+
+/*cartas*/
+.row .col.l4 {
+    width: 33.3333333333%;
+    margin-left: 10%;/*cartas en el centro bien separas*/
+    left: auto;
+    right: auto;
+    background-color:#ddd ;
+    box-shadow: 0 0 6px rgb(0 0 0 / 50%);/*poner sombra*/
+    border: 1px solid #ddd; /*poner bordo*/
+    border-radius: 10px; /*esquinas redondas*/
+}
+
+/*Texto de cartas*/
+.card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+/*titulo de las cartas*/
+.card .card-image .card-title {
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 1px;/*tamaño de cuadro*/
+    background-color:#ddd ;
+    box-shadow: 0 0 6px rgb(0 0 0 / 50%);/*poner sombra*/
+    border: 1px solid #ddd; /*poner bordo*/
+    border-radius: 10px; /*esquinas redondas*/
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 1px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 6px rgb(0 0 0 / 50%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/*centrar iconos de cartas*/
+td, th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*boton guardar*/
+/*
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20%;
+
+}*/
+
+.unboton{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20%;  
+}
